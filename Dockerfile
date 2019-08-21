@@ -1,5 +1,5 @@
 FROM gui-apps-base:18.04
-MAINTAINER Gabriel Ionescu <gabriel.ionescu@gameloft.com>
+MAINTAINER Gabriel Ionescu <gabi.ionescu+dockerthings@protonmail.com>
 
 ARG APP_VERSION
 

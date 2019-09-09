@@ -18,7 +18,6 @@ RUN echo "\n > UPDATE REPOS\n" \
         libasound2 \
         libx11-xcb1 \
         libxcb1 \
-        libgtk-3-0 \
         wget \
  \
  && echo "\n > DOWNLOAD PACKAGE\n" \

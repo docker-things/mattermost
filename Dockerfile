@@ -27,7 +27,7 @@ RUN echo "\n > UPDATE REPOS\n" \
  && dpkg -i /tmp/mattermost.deb \
  \
  && echo "\n > CLEANUP\n" \
- && rm -f /tmp/* \
+ && rm -rf /tmp/* \
  && apt-get remove -y wget \
  && apt-get clean -y \
  && apt-get autoclean -y \
